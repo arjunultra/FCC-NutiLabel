@@ -7,8 +7,7 @@ html {
 body {
   font-family: "Open Sans", sans-serif;
 }
-h1 {
-  font-weight: 800;
+header h1 {
   text-align: center;
   margin: -4px 0;
   letter-spacing: 0.15px;
@@ -27,6 +26,16 @@ p {
   margin: 2px 0;
 }
 .bold {
-  font-weight: 900;
-  font-style: ;
+  font-weight: 800;
+}
+.right {
+  float: right;
+}
+.lg {
+  height: 10px;
+}
+.lg,
+.md {
+  background-color: black;
+  border: 0;
 }
